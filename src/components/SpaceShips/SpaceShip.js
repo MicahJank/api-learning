@@ -34,7 +34,7 @@ const SpaceShip = (props) => {
     );
 
     // ABOUT PROPS
-    // Remember in SpaceShips.js on line 38? THAT <SpaceShip /> component is what holds our 'props' When we say props here we are able to access ANY of those properties that we have
+    // Remember in SpaceShips.js on line 74? THAT <SpaceShip /> component is what holds our 'props' When we say props here we are able to access ANY of those properties that we have
     // defined. In this case there are 2 properties on the <SpaceShip />: 'name' and 'class' so if we want to access those properties inside of our SpaceShip function here we will need to
     // use props. Notice on line 30 here that inside the <h2> i am grabbing {props.name} and inside the <h4> i am grabbing {props.class} these are our properties! So whatever i have
     // defined them (remember the properties are actually being defined in the <SpaceShip /> component in the SpaceShips.js file NOT HERE!) as will be shown inside of the h2 and h4 that i have here.

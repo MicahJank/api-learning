@@ -1,5 +1,5 @@
 // Remember to import useState and useEffect if you are going to be needing to use them!
-// Here i am going to be making an API call on line 14, API calls should always be inside of a useEffect!
+// Here i am going to be making an API call on line 31, API calls should always be inside of a useEffect!
 import React, {useState, useEffect} from 'react';
 
 // DONT FORGET AXIOS! before importing axios from 'axios' remember you need to install it first!
@@ -8,8 +8,8 @@ import React, {useState, useEffect} from 'react';
 // MORE INFO ABOUT AXIOS HERE - https://github.com/axios/axios -
 import axios from 'axios'; 
 
-// On line 40 we are creating the SpaceShip component, remember we have to import the components we want to use, so this step is important! Without this 
-// import here the program would have no idea what 'SpaceShip' is on line 40 and would throw an error!
+// On line 74 we are creating the SpaceShip component, remember we have to import the components we want to use, so this step is important! Without this 
+// import here the program would have no idea what 'SpaceShip' is on line 74 and would throw an error!
 import SpaceShip from './SpaceShip.js';
 
 const SpaceShips = () => {
